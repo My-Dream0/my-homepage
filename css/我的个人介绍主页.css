@@ -1,0 +1,87 @@
+body {
+    background-color: cadetblue;
+}
+h1 {
+    color: crimson;
+    text-align: center;
+}
+
+#jianjie {
+    color: azure;
+    text-align: center;
+}
+
+ul>li {
+    color: bisque;
+    letter-spacing: 8px;
+}
+
+table {
+    border: 2px solid skyblue;
+    margin: 10px 0;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: 20px;
+}
+
+td {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+th,td{
+    padding: 8px 12px;
+    border: 1px solid #333;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 5px solid #333;
+}
+
+footer {
+    color: darkgrey;
+    font-size: 11px;
+    text-align: right;
+}
+
+input[type="text"]{
+    border: 2px solid #666;
+    border-radius: 4px;
+}
+input[type="email"]{
+    border: 3px solid #333;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+/* 当屏幕宽度 ≤ 768px（手机/平板）时生效 */
+@media (max-width: 768px) {
+  body {
+    padding: 0 15px; /* 给页面左右加内边距，避免贴边 */
+  }
+
+  img {
+    max-width: 100%; /* 图片不会超出屏幕 */
+    height: auto;    /* 保持图片比例 */
+  }
+
+  table {
+    font-size: 12px; /* 表格文字缩小一点 */
+    overflow-x: auto; /* 表格太宽时可以左右滑动 */
+    display: block;
+  }
+
+  input, textarea {
+    width: 100%; /* 输入框铺满屏幕，方便点击 */
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,33 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+p {
+    text-indent: 35px;
+}
+
+h3 {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+#gongsi {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+input:hover {
+
+}
+
+a:link {
+    color: aqua;
+}
+
+a:visited {
+    color: brown;
+}
